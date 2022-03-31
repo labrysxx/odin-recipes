@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    border: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 600px;
+    text-align: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:black;
+}
+
+img{
+    width:auto;
+    height:400px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding:20px 0 10px 0;
+}
+
+.list{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.list.pass{
+    list-style-type: circle;
+}
