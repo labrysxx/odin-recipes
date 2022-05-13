@@ -1,45 +1,62 @@
 *{
     padding: 0;
-    border: 0;
     margin:0;
     box-sizing: border-box;
 }
 
 body{
-    max-width: 600px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    padding: 0 0 0 50px;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color:black;
+    margin-bottom: 10px;
 }
 
 img{
     width:auto;
-    height:400px;
+    height:300px;
 }
 
 p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 12px;
     line-height: 20px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     padding:20px 0 10px 0;
+    color: blue;
+    text-align: left;
 }
 
 .list{
     font-family: 'Courier New', Courier, monospace;
     font-size: 13px;
     line-height: 20px;
+    list-style-type: none;
+    text-align: left;
 }
 
-.list.pass{
-    list-style-type: circle;
+.container{
+    width: 600px;
+}
+
+.img{
+    margin-top: 100px;
+}
+
+.content{
+    background: rgb(223, 221, 221);
+    padding: 60px;
 }
