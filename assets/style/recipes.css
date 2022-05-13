@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row-reverse;
-    padding: 0 0 0 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 h1{
@@ -20,8 +20,8 @@ h1{
 }
 
 img{
-    width:auto;
-    height:300px;
+    width:100%;
+    height:100%;
 }
 
 p{
@@ -48,15 +48,67 @@ h2{
     text-align: left;
 }
 
-.container{
-    width: 600px;
-}
-
-.img{
-    margin-top: 100px;
-}
-
 .content{
     background: rgb(223, 221, 221);
-    padding: 60px;
+    padding: 30px 60px;
+} */
+
+body{
+    position: relative;
+    width: 1280px;
+    height: 802px;
+}
+
+#image1{
+    width: 640px;
+    height: 401px;
+    position: absolute;
+    left: 640px;
+}
+
+#image2{
+    width: 640px;
+    height: 401px;
+    position: absolute;
+    top: 401px;
+}
+
+#ingredientes{
+    width: 640px;
+    height: 401px;
+    position: absolute;
+    background: rgb(223, 221, 221);
+    padding: 40px 100px;
+}
+
+#passos{
+    width: 640px;
+    height: 401px;
+    position: absolute;
+    left: 640px;
+    top: 401px;
+    background: rgb(223, 221, 221);
+    padding: 40px 100px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 8px;
+    color: tomato;
+}
+
+a{
+    margin-top: 50px;
 }
